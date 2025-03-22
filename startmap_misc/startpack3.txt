@@ -1,0 +1,40 @@
+
+                         THE DARK MOD STARTPACK 3 by Fidcal
+
+The Mappers' Startpack is a set of components that can be used as the start of any Dark Mod map.
+it has all you need to both start and finish off your FM.
+It is a complete, installable, finishable pseudo-mission already packed in the correct TDM FM format. 
+It does not include any useable terrain but sets up other elements that are common or essential. 
+Instead of developing from new the mapper can simply modify these which is far easier. 
+The mapper can thus begin with this seed FM and focus on building. 
+The entire startpack can be customised by the mapper to form a nucleus for all their future FMs.
+
+Full details and guide at:
+http://modetwo.net/darkmod/wiki/index.php?title=Startpack_Mappers%27_Guide
+
+
+                    WHAT'S NEW IN STARTPACK 3?
+
+* Slight change to in-game map templates guis/map_of.gui. No change in procedure but this new gui should be used.
+* Briefing is now in separate xdata/briefing.xd file. Briefing text should not be put directly in the briefing gui as before. Briefman.exe no longer included and should not be used but type briefing text directly into the xd file as described on the wiki startpack article.
+* Changed the following to only include AI that will be available in Dark Mod Release 1: All common AI heads, bodies, and skins combinations so you can more easily choose from a wide selection of armed guards, thieves, commoners, etc. Also added static weapons to indicate in the editor which have longswords, shortswords, daggers, bows, or unarmed etc.
+* Removed bent and circular lockpicks which will no longer be in Dark Mod.
+* Removed vine arrows to be compatible with Dark Mod Release 1. These will be restored in a future startpack when they are fully working.
+* Removed speed potions from shop items to be compatible with Dark Mod Release 1. These will be restored in a future startpack when they are fully working.
+* The whole map now has a darker typical ambient light. The water murk overlay and underwater overlay examples are now all darker to approximate more typical game conditions. They still do not react to local lighting so will look dark in very bright light and possibly still glow slightly in extremely dark areas. If you should need to adjust then copy the material def and change the rgb value and put this in a mtr file with your FM.
+
+
+                    WHAT WAS NEW IN STARTPACK 2?
+
+* Added new shop list entity & easy-read prefab with comments. (Shop items on worldspawn still work)
+* Added custom entity templates to add a new shop item.
+* Added shop_skip to enable/disable shop.
+* Added in-game map templates. Just scan in your treasure map sketch etc.
+* Added a way to enable/disable developer text.
+* Added internal leak test entity as entity #1.
+* Added player start drop to overcome rendering delay at map start.
+* Added all common ammo/tools so easy to set amounts for each difficulty. (removed ammo difficulty hack.)
+* Added simple Briefing Manager Windows executable so briefing now in plain text briefing.txt template.
+* Added all common AI heads, bodies, and skins combinations so you can more easily choose from a wide selection of armed guards, thieves, commoners, etc.
+
+Note that the water bodies are unchanged. These include murk overlays that work OK in bright light but they are not affected by changes in local lighting so can 'glow' in the dark. I've still not found an ideal solution.

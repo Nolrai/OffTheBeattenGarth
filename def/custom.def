@@ -1,0 +1,25 @@
+// To disable a line, put a double slash // at the start
+
+entityDef atdm:map_of
+{
+	"inherit"			"atdm:map_base"
+
+	"editor_usage"		"game map of terrain for player" // THIS ONLY SHOWS IN ENTITY INSPECTOR
+
+	"inv_name"			"Map" // SHOWS IN PLAYER'S INVENTORY.
+	"inv_icon"			"guis/assets/game_maps/map_of_icon.tga"
+	"gui"					"guis/map_of.gui"
+}
+
+
+
+entityDef ShopItem_map_of
+{
+	"inherit"			"atdm:shopitem_base"
+	"editor_usage"		"Shopitem for map of terrain" // THIS ONLY SHOWS IN ENTITY INSPECTOR
+	"displayName"		"Map" // NAME SHOWN IN SHOP
+	"displayDesc"	    	"A map of the terrain" // DESCRIPTION SHOWN IN SHOP
+	"itemClassname"		"atdm:map_of"  //MUST BE SAME AS MAP ENTITY DEF NAME
+	"image"			"guis/assets/purchase_menu/map_of"  // ICON SHOWN IN SHOP
+	"price"				"20"
+}

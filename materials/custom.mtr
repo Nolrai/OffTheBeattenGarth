@@ -1,0 +1,9 @@
+// game map in sheet form shop item icon with transparent background...
+guis/assets/purchase_menu/map_of
+{
+    {
+        blend modulate
+        map guis/assets/purchase_menu/map_of
+        alpha parm3
+    }
+}

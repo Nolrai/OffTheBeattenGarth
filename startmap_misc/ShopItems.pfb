@@ -1,0 +1,227 @@
+Version 2
+// entity 0
+{
+"classname" "atdm:shop"
+"name" "ShopItems"
+"origin" "0 0 0"
+// ENTER AMOUNT OF GOLD TO GIVE PLAYER TO SPEND IN SHOP FOR EACH DIFFICULTY:
+"diff_0_shop_gold_start" "800"
+"diff_1_shop_gold_start" "600"
+"diff_2_shop_gold_start" "400"
+
+// ALL FOLLOWING QUANTITIES SET TO ZERO SO BY DEFAULT NOTHING IN SHOP
+// ENTER QUANTITIES ONLY AGAINST THE ITEMS YOU WANT TO INCLUDE.....
+
+// START ITEMS GIVEN TO PLAYER AT START (CAN BE DROPPED IN SHOP):
+"startingItem_1_item" "weapon_shortsword"   // NUMBERS THIS ITEM AS #1
+"startingItem_1_0_qty" "0"       // ITEM NUMBER - DIFFICULTY 0 - QUANTITY 
+"startingItem_1_1_qty" "0"       // ITEM NUMBER - DIFFICULTY 1 - QUANTITY 
+"startingItem_1_2_qty" "0"       // ITEM NUMBER - DIFFICULTY 2 - QUANTITY 
+
+"startingItem_2_item" "weapon_blackjack"
+"startingItem_2_0_qty" "0"
+"startingItem_2_1_qty" "0"
+"startingItem_2_2_qty" "0"
+
+"startingItem_3_item" "weapon_waterarrow"
+"startingItem_3_0_qty" "0"
+"startingItem_3_1_qty" "0"
+"startingItem_3_2_qty" "0"
+
+"startingItem_4_item" "weapon_broadhead"
+"startingItem_4_0_qty" "0"
+"startingItem_4_1_qty" "0"
+"startingItem_4_2_qty" "0"
+
+"startingItem_5_item" "weapon_ropearrow"
+"startingItem_5_0_qty" "0"
+"startingItem_5_1_qty" "0"
+"startingItem_5_2_qty" "0"
+
+"startingItem_6_item" "weapon_mossarrow"
+"startingItem_6_0_qty" "0"
+"startingItem_6_1_qty" "0"
+"startingItem_6_2_qty" "0"
+
+"startingItem_7_item" "weapon_noisemaker"
+"startingItem_7_0_qty" "0"
+"startingItem_7_1_qty" "0"
+"startingItem_7_2_qty" "0"
+
+"startingItem_8_item" "weapon_firearrow"
+"startingItem_8_0_qty" "0"
+"startingItem_8_1_qty" "0"
+"startingItem_8_2_qty" "0"
+
+"startingItem_9_item" "weapon_gasarrow"
+"startingItem_9_0_qty" "0"
+"startingItem_9_1_qty" "0"
+"startingItem_9_2_qty" "0"
+
+"startingItem_10_item" "weapon_vinearrow"
+"startingItem_10_0_qty" "0"
+"startingItem_10_1_qty" "0"
+"startingItem_10_2_qty" "0"
+
+"startingItem_11_item" "atdm:playertools_compass"
+"startingItem_11_0_qty" "0"
+"startingItem_11_1_qty" "0"
+"startingItem_11_2_qty" "0"
+
+"startingItem_12_item" "atdm:player_lantern"
+"startingItem_12_0_qty" "0"
+"startingItem_12_1_qty" "0"
+"startingItem_12_2_qty" "0"
+
+"startingItem_13_item" "atdm:player_spyglass"
+"startingItem_13_0_qty" "0"
+"startingItem_13_1_qty" "0"
+"startingItem_13_2_qty" "0"
+
+"startingItem_14_item" "atdm:playertools_lockpick_set"
+"startingItem_14_0_qty" "0"
+"startingItem_14_1_qty" "0"
+"startingItem_14_2_qty" "0"
+
+"startingItem_15_item" "atdm:playertools_mine"
+"startingItem_15_0_qty" "0"
+"startingItem_15_1_qty" "0"
+"startingItem_15_2_qty" "0"
+
+"startingItem_16_item" "atdm:playertools_flashbomb"
+"startingItem_16_0_qty" "0"
+"startingItem_16_1_qty" "0"
+"startingItem_16_2_qty" "0"
+
+"startingItem_17_item" "atdm:playertools_holywater"
+"startingItem_17_0_qty" "0"
+"startingItem_17_1_qty" "0"
+"startingItem_17_2_qty" "0"
+
+"startingItem_18_item" "atdm:playertools_health_potion"
+"startingItem_18_0_qty" "0"
+"startingItem_18_1_qty" "0"
+"startingItem_18_2_qty" "0"
+
+"startingItem_19_item" "atdm:playertools_breath_potion"
+"startingItem_19_0_qty" "0"
+"startingItem_19_1_qty" "0"
+"startingItem_19_2_qty" "0"
+
+"startingItem_20_item" "atdm:playertools_speed_potion"
+"startingItem_20_0_qty" "0"
+"startingItem_20_1_qty" "0"
+"startingItem_20_2_qty" "0"
+
+"startingItem_21_item" "atdm:map_of"
+"startingItem_21_0_qty" "0"
+"startingItem_21_1_qty" "0"
+"startingItem_21_2_qty" "0"
+
+
+// SHOP ITEMS FOR SALE:
+"shopItem_1_item" "weapon_shortsword"   // NUMBERS THIS ITEM AS #1
+"shopItem_1_0_qty" "0"     // ITEM NUMBER - DIFFICULTY 0 - QUANTITY 
+"shopItem_1_1_qty" "0"       // ITEM NUMBER - DIFFICULTY 1 - QUANTITY 
+"shopItem_1_2_qty" "0"       // ITEM NUMBER - DIFFICULTY 2 - QUANTITY 
+
+"shopItem_2_item" "weapon_blackjack"
+"shopItem_2_0_qty" "0"
+"shopItem_2_1_qty" "0"
+"shopItem_2_2_qty" "0"
+
+"shopItem_3_item" "weapon_waterarrow"
+"shopItem_3_0_qty" "0"
+"shopItem_3_1_qty" "0"
+"shopItem_3_2_qty" "0"
+
+"shopItem_4_item" "weapon_broadhead"
+"shopItem_4_0_qty" "0"
+"shopItem_4_1_qty" "0"
+"shopItem_4_2_qty" "0"
+
+"shopItem_5_item" "weapon_ropearrow"
+"shopItem_5_0_qty" "0"
+"shopItem_5_1_qty" "0"
+"shopItem_5_2_qty" "0"
+
+"shopItem_6_item" "weapon_mossarrow"
+"shopItem_6_0_qty" "0"
+"shopItem_6_1_qty" "0"
+"shopItem_6_2_qty" "0"
+
+"shopItem_7_item" "weapon_noisemaker"
+"shopItem_7_0_qty" "0"
+"shopItem_7_1_qty" "0"
+"shopItem_7_2_qty" "0"
+
+"shopItem_8_item" "weapon_firearrow"
+"shopItem_8_0_qty" "0"
+"shopItem_8_1_qty" "0"
+"shopItem_8_2_qty" "0"
+
+"shopItem_9_item" "weapon_gasarrow"
+"shopItem_9_0_qty" "0"
+"shopItem_9_1_qty" "0"
+"shopItem_9_2_qty" "0"
+
+"shopItem_10_item" "weapon_vinearrow"
+"shopItem_10_0_qty" "0"
+"shopItem_10_1_qty" "0"
+"shopItem_10_2_qty" "0"
+
+"shopItem_11_item" "atdm:playertools_compass"
+"shopItem_11_0_qty" "0"
+"shopItem_11_1_qty" "0"
+"shopItem_11_2_qty" "0"
+
+"shopItem_12_item" "atdm:player_lantern"
+"shopItem_12_0_qty" "0"
+"shopItem_12_1_qty" "0"
+"shopItem_12_2_qty" "0"
+
+"shopItem_13_item" "atdm:player_spyglass"
+"shopItem_13_0_qty" "0"
+"shopItem_13_1_qty" "0"
+"shopItem_13_2_qty" "0"
+
+"shopItem_14_item" "atdm:playertools_lockpick_set"
+"shopItem_14_0_qty" "0"
+"shopItem_14_1_qty" "0"
+"shopItem_14_2_qty" "0"
+
+"shopItem_15_item" "atdm:playertools_mine"
+"shopItem_15_0_qty" "0"
+"shopItem_15_1_qty" "0"
+"shopItem_15_2_qty" "0"
+
+"shopItem_16_item" "atdm:playertools_flashbomb"
+"shopItem_16_0_qty" "0"
+"shopItem_16_1_qty" "0"
+"shopItem_16_2_qty" "0"
+
+"shopItem_17_item" "atdm:playertools_holywater"
+"shopItem_17_0_qty" "0"
+"shopItem_17_1_qty" "0"
+"shopItem_17_2_qty" "0"
+
+"shopItem_18_item" "atdm:playertools_health_potion"
+"shopItem_18_0_qty" "0"
+"shopItem_18_1_qty" "0"
+"shopItem_18_2_qty" "0"
+
+"shopItem_19_item" "atdm:playertools_breath_potion"
+"shopItem_19_0_qty" "0"
+"shopItem_19_1_qty" "0"
+"shopItem_19_2_qty" "0"
+
+"shopItem_20_item" "atdm:playertools_speed_potion"
+"shopItem_20_0_qty" "0"
+"shopItem_20_1_qty" "0"
+"shopItem_20_2_qty" "0"
+
+"shopItem_21_item" "atdm:map_of"
+"shopItem_21_0_qty" "0"
+"shopItem_21_1_qty" "0"
+"shopItem_21_2_qty" "0"
+}

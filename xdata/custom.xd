@@ -1,0 +1,795 @@
+/* ADDING TEXT...
+If more than 1 page then change the number of pages where shown, eg, "num_pages"   : "1" ... change to "3"
+If more than 5 then add more at the end of the section.
+If less than the default 5 no need to remove any - just use the ones you want.
+
+In all xdata sections, your main text should be typed between double quotes usually in a 'body' section where shown.
+Almost all also have a page 'title' which uses a larger font.
+Both 'title' and 'body' sections can fill the same page so you have choices:
+Put text in the body only and leave the title blank.
+Put a header in the title and your main text in the body beginning with a \n to linefeed past the header.
+Put subheading(s) in the title spaced out with \n and also text in the body also spaced out with \n.
+Use only the title for the whole page if you want a larger font.
+Some provide an 'illuminated' capital initial letter where shown else leave empty (can precede with \n\n to force linefeeds.)
+If you do insert an illuminated capital letter then also space out 3 body lines to leave room.
+
+Enter your text in paragraphs between double quotes which in turn are between the curly brackets.
+Use two empty double quotes for blank lines if needed, eg...
+{
+"paragraph"
+""
+"paragraph"
+""
+"paragraph"
+}
+Do not press the Enter key to start a new line within the quotes - let your plain text editor wordwrap and long lines will also wordwrap in the game readable (for example this paragraph you are reading.) If you should want to force a new line within quotes then type \n
+
+Resave your xdata file.
+*/
+
+
+
+book_printed
+{
+    precache
+"num_pages"   : "1"
+
+"page1_left_title" : 
+{
+"" 
+}
+"page1_left_body" :
+{
+" Delete this text and enter your own. One paragraph between each set of quotation marks."
+""
+"This is another paragraph on the same page. Change this too."
+}
+
+"page1_right_title" :
+{
+"" 
+}
+"page1_right_body" :
+{
+""
+}
+
+"page2_left_title" : 
+{
+"" 
+}
+"page2_left_body" :
+{
+""
+}
+
+"page2_right_title" :
+{
+"" 
+}
+"page2_right_body" :
+{
+""
+}
+
+"page3_left_title" :
+{
+"" 
+}
+"page3_left_body" :
+{
+""
+}
+
+"page3_right_title" : 
+{
+"" 
+}
+"page3_right_body" :
+{
+""
+}
+
+"page4_left_title" :
+{
+"" 
+}
+"page4_left_body" :
+{
+""
+}
+
+"page4_right_title" : 
+{
+"" 
+}
+"page4_right_body" :
+{
+""
+}
+
+"page5_left_title" : 
+{
+"" 
+}
+"page5_left_body" :
+{
+""
+}
+
+"page5_right_title" : 
+{
+"" 
+}
+"page5_right_body" :
+{
+""
+}
+
+"gui_page1"   : "guis/readables/books/book_print_stone.gui"
+"gui_page2"   : "guis/readables/books/book_print_stone.gui"
+"gui_page3"   : "guis/readables/books/book_print_stone.gui"
+"gui_page4"   : "guis/readables/books/book_print_stone.gui" //NO NEED TO DELETE UNWANTED PAGES HERE
+"gui_page5"   : "guis/readables/books/book_print_stone.gui" //COPY LINES & RENUMBER TO ADD PAGES
+
+"snd_page_turn" : "readable_page_turn"
+ }
+
+
+
+
+book_handwritten
+{
+    precache
+"num_pages"   : "1"
+
+"page1_left_title" : 
+{
+"" 
+}
+"page1_left_body" :
+{
+" Delete this text and enter your own. One paragraph between each set of quotation marks."
+""
+"This is another paragraph on the same page. Change this too."
+}
+
+"page1_right_title" :
+{
+"" 
+}
+"page1_right_body" :
+{
+""
+}
+
+"page2_left_title" : 
+{
+"" 
+}
+"page2_left_body" :
+{
+""
+}
+
+"page2_right_title" :
+{
+"" 
+}
+"page2_right_body" :
+{
+""
+}
+
+"page3_left_title" :
+{
+"" 
+}
+"page3_left_body" :
+{
+""
+}
+
+"page3_right_title" : 
+{
+"" 
+}
+"page3_right_body" :
+{
+""
+}
+
+"page4_left_title" :
+{
+"" 
+}
+"page4_left_body" :
+{
+""
+}
+
+"page4_right_title" : 
+{
+"" 
+}
+"page4_right_body" :
+{
+""
+}
+
+"page5_left_title" : 
+{
+"" 
+}
+"page5_left_body" :
+{
+""
+}
+
+"page5_right_title" : 
+{
+"" 
+}
+"page5_right_body" :
+{
+""
+}
+
+"gui_page1"   : "guis/readables/books/book_hand_andrew_script.gui"
+"gui_page2"   : "guis/readables/books/book_hand_andrew_script.gui"
+"gui_page3"   : "guis/readables/books/book_hand_andrew_script.gui"
+"gui_page4"   : "guis/readables/books/book_hand_andrew_script.gui" //NO NEED TO DELETE UNWANTED PAGES HERE
+"gui_page5"   : "guis/readables/books/book_hand_andrew_script.gui" //COPY LINES & RENUMBER TO ADD PAGES
+
+"snd_page_turn" : "readable_page_turn"
+ }
+
+
+
+
+book_gothic
+{
+    precache
+"num_pages"   : "1"
+
+"page1_left_title" : 
+{
+""
+}
+"page1_left_body" :
+{
+" Delete this text and enter your own. One paragraph between each set of quotation marks."
+""
+"This is another paragraph on the same page. Change this too."
+}
+
+"page1_right_title" :
+{
+"" 
+}
+"page1_right_body" :
+{
+""
+}
+
+"page2_left_title" : 
+{
+"" 
+}
+"page2_left_body" :
+{
+""
+}
+
+"page2_right_title" :
+{
+"" 
+}
+"page2_right_body" :
+{
+""
+}
+
+"page3_left_title" :
+{
+"" 
+}
+"page3_left_body" :
+{
+""
+}
+
+"page3_right_title" : 
+{
+"" 
+}
+"page3_right_body" :
+{
+""
+}
+
+"page4_left_title" :
+{
+"" 
+}
+"page4_left_body" :
+{
+""
+}
+
+"page4_right_title" : 
+{
+"" 
+}
+"page4_right_body" :
+{
+""
+}
+
+"page5_left_title" : 
+{
+"" 
+}
+"page5_left_body" :
+{
+""
+}
+
+"page5_right_title" : 
+{
+"" 
+}
+"page5_right_body" :
+{
+""
+}
+
+"gui_page1"   : "guis/readables/books/book_gothic_bamberg.gui"
+"gui_page2"   : "guis/readables/books/book_gothic_bamberg.gui"
+"gui_page3"   : "guis/readables/books/book_gothic_bamberg.gui"
+"gui_page4"   : "guis/readables/books/book_gothic_bamberg.gui" //NO NEED TO DELETE UNWANTED PAGES HERE
+"gui_page5"   : "guis/readables/books/book_gothic_bamberg.gui" //COPY LINES & RENUMBER TO ADD PAGES
+
+"snd_page_turn" : "readable_page_turn"
+ }
+
+
+
+
+
+scroll_printed
+{
+    precache
+"num_pages"   : "1"
+
+"page1_title" :
+{
+"" 
+}
+"page1_body" :
+{
+" Delete this text and enter your own. One paragraph between each set of quotation marks."
+""
+"This is another paragraph on the same page. Change this too."
+}
+
+"page2_title" :
+{
+"" 
+}
+"page2_body" :
+{
+""
+}
+
+"page3_title" :
+{
+"" 
+}
+"page3_body" :
+{
+""
+}
+
+"page4_title" :
+{
+"" 
+}
+"page4_body" :
+{
+""
+}
+
+"page5_title" :
+{
+"" 
+}
+"page5_body" :
+{
+""
+}
+"gui_page1"   : "guis/readables/scrolls/scroll_print_stone.gui"
+"gui_page2"   : "guis/readables/scrolls/scroll_print_stone.gui"
+"gui_page3"   : "guis/readables/scrolls/scroll_print_stone.gui"
+"gui_page4"   : "guis/readables/scrolls/scroll_print_stone.gui" //NO NEED TO DELETE UNWANTED PAGES HERE
+"gui_page5"   : "guis/readables/scrolls/scroll_print_stone.gui" //COPY LINES & RENUMBER TO ADD PAGES
+"snd_page_turn" : "readable_page_turn"
+ }
+
+
+
+
+
+scroll_handwritten
+{
+    precache
+"num_pages"   : "1"
+
+"page1_title" :
+{
+"" 
+}
+"page1_body" :
+{
+" Delete this text and enter your own. One paragraph between each set of quotation marks."
+""
+"This is another paragraph on the same page. Change this too."
+}
+
+"page2_title" :
+{
+"" 
+}
+"page2_body" :
+{
+""
+}
+
+"page3_title" :
+{
+"" 
+}
+"page3_body" :
+{
+""
+}
+
+"page4_title" :
+{
+"" 
+}
+"page4_body" :
+{
+""
+}
+
+"page5_title" :
+{
+"" 
+}
+"page5_body" :
+{
+""
+}
+"gui_page1"   : "guis/readables/scrolls/scroll_calig_summertime.gui"
+"gui_page2"   : "guis/readables/scrolls/scroll_calig_summertime.gui"
+"gui_page3"   : "guis/readables/scrolls/scroll_calig_summertime.gui"
+"gui_page4"   : "guis/readables/scrolls/scroll_calig_summertime.gui" //NO NEED TO DELETE UNWANTED PAGES HERE
+"gui_page5"   : "guis/readables/scrolls/scroll_calig_summertime.gui" //COPY LINES & RENUMBER TO ADD PAGES
+"snd_page_turn" : "readable_page_turn"
+ }
+
+
+
+
+scroll_gothic
+{
+    precache
+"num_pages"   : "1"
+
+"page1_title" :
+{
+"" 
+}
+"page1_body" :
+{
+" Delete this text and enter your own. One paragraph between each set of quotation marks."
+""
+"This is another paragraph on the same page. Change this too."
+}
+
+"page2_title" :
+{
+"" 
+}
+"page2_body" :
+{
+""
+}
+
+"page3_title" :
+{
+"" 
+}
+"page3_body" :
+{
+""
+}
+
+"page4_title" :
+{
+"" 
+}
+"page4_body" :
+{
+""
+}
+
+"page5_title" :
+{
+"" 
+}
+"page5_body" :
+{
+""
+}
+"gui_page1"   : "guis/readables/scrolls/scroll_gothic_bamberg.gui"
+"gui_page2"   : "guis/readables/scrolls/scroll_gothic_bamberg.gui"
+"gui_page3"   : "guis/readables/scrolls/scroll_gothic_bamberg.gui"
+"gui_page4"   : "guis/readables/scrolls/scroll_gothic_bamberg.gui" //NO NEED TO DELETE UNWANTED PAGES HERE
+"gui_page5"   : "guis/readables/scrolls/scroll_gothic_bamberg.gui" //COPY LINES & RENUMBER TO ADD PAGES
+"snd_page_turn" : "readable_page_turn"
+ }
+
+
+
+
+
+sheet_written_dash
+{
+    precache
+"num_pages"   : "1"
+
+"page1_title" :
+{
+"" 
+}
+"page1_body" :
+{
+" Delete this text and enter your own. One paragraph between each set of quotation marks."
+""
+"This is another paragraph on the same page. Change this too."
+}
+
+"page2_title" :
+{
+"" 
+}
+"page2_body" :
+{
+""
+}
+
+"page3_title" :
+{
+"" 
+}
+"page3_body" :
+{
+""
+}
+
+"page4_title" :
+{
+"" 
+}
+"page4_body" :
+{
+""
+}
+
+"page5_title" :
+{
+"" 
+}
+"page5_body" :
+{
+""
+}
+
+"gui_page1"   : "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
+"gui_page2"   : "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
+"gui_page3"   : "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui"
+"gui_page4"   : "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui" //NO NEED TO DELETE UNWANTED PAGES HERE
+"gui_page5"   : "guis/readables/sheets/sheet_paper_hand_ellianerelle.gui" //COPY LINES & RENUMBER TO ADD PAGES
+
+"snd_page_turn" : "readable_page_turn"
+ }
+
+
+
+sheet_written_bold
+{
+    precache
+"num_pages"   : "1"
+
+"page1_title" :
+{
+"" 
+}
+"page1_body" :
+{
+" Delete this text and enter your own. One paragraph between each set of quotation marks."
+""
+"This is another paragraph on the same page. Change this too."
+}
+
+"page2_title" :
+{
+"" 
+}
+"page2_body" :
+{
+""
+}
+
+"page3_title" :
+{
+"" 
+}
+"page3_body" :
+{
+""
+}
+
+"page4_title" :
+{
+"" 
+}
+"page4_body" :
+{
+""
+}
+
+"page5_title" :
+{
+"" 
+}
+"page5_body" :
+{
+""
+}
+
+"gui_page1"   : "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+"gui_page2"   : "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+"gui_page3"   : "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+"gui_page4"   : "guis/readables/sheets/sheet_paper_hand_nancy.gui" //NO NEED TO DELETE UNWANTED PAGES HERE
+"gui_page5"   : "guis/readables/sheets/sheet_paper_hand_nancy.gui" //COPY LINES & RENUMBER TO ADD PAGES
+
+"snd_page_turn" : "readable_page_turn"
+ }
+
+
+
+sheet_written_slope
+{
+    precache
+"num_pages"   : "1"
+
+"page1_title" :
+{
+"" 
+}
+"page1_body" :
+{
+" Delete this text and enter your own. One paragraph between each set of quotation marks."
+""
+"This is another paragraph on the same page. Change this too."
+}
+
+"page2_title" :
+{
+"" 
+}
+"page2_body" :
+{
+""
+}
+
+"page3_title" :
+{
+"" 
+}
+"page3_body" :
+{
+""
+}
+
+"page4_title" :
+{
+"" 
+}
+"page4_body" :
+{
+""
+}
+
+"page5_title" :
+{
+"" 
+}
+"page5_body" :
+{
+""
+}
+
+"gui_page1"   : "guis/readables/sheets/sheet_paper_hand_popsies.gui"
+"gui_page2"   : "guis/readables/sheets/sheet_paper_hand_popsies.gui"
+"gui_page3"   : "guis/readables/sheets/sheet_paper_hand_popsies.gui"
+"gui_page4"   : "guis/readables/sheets/sheet_paper_hand_popsies.gui" //NO NEED TO DELETE UNWANTED PAGES HERE
+"gui_page5"   : "guis/readables/sheets/sheet_paper_hand_popsies.gui" //COPY LINES & RENUMBER TO ADD PAGES
+
+"snd_page_turn" : "readable_page_turn"
+ }
+
+
+
+
+game_maps
+{
+    precache
+"num_pages"   : "3"
+
+"page1_title" :
+{
+"" 
+}
+"page1_body" :
+{
+""
+}
+
+"page2_title" :
+{
+"" 
+}
+"page2_body" :
+{
+""
+}
+
+"page3_title" :
+{
+"" 
+}
+"page3_body" :
+{
+""
+}
+
+"page4_title" :
+{
+"" 
+}
+"page4_body" :
+{
+""
+}
+
+"page5_title" :
+{
+"" 
+}
+"page5_body" :
+{
+""
+}
+
+"gui_page1"   : "guis/readables/sheets/sheet_paper_hand_everett.gui"
+"gui_page2"   : "guis/readables/sheets/sheet_paper_hand_everett.gui"
+"gui_page3"   : "guis/readables/sheets/sheet_paper_hand_everett.gui"
+"gui_page4"   : "guis/readables/sheets/sheet_paper_hand_everett.gui" //NO NEED TO DELETE UNWANTED PAGES HERE
+"gui_page5"   : "guis/readables/sheets/sheet_paper_hand_everett.gui" //COPY LINES & RENUMBER TO ADD PAGES
+
+"snd_page_turn" : "readable_page_turn"
+ }

@@ -1,0 +1,38 @@
+maps/startmap/mission_briefing
+{
+"num_pages": "2"
+
+"page1_body" :
+{
+"This is Page 1, Paragraph 1 of your briefing. Delete this and enter your own text. Do not include linefeeds (Enter Key) within these quotations marks. To start a new paragraph just start a new line within double quotes. Optionally you can include empty double quotes to leave a line space between paragraphs."
+""
+"This is another paragraph on the same page. Change this too. Don't put too much on one page or it gets cut off at the bottom."
+}
+
+
+"page2_body" :
+{
+"This is page 2 of your briefing. You can make any number of pages likes this but you must put the number in the quotes on the 'num_pages' line above. Delete this text and enter your own."
+}
+
+
+
+"page3_body" :
+{
+""
+}
+
+
+"page4_body" :
+{
+""
+}
+
+
+"page5_body" :
+{
+""
+}
+
+}
+
