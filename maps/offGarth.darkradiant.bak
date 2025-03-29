@@ -1,18 +1,15 @@
 DarkRadiant Map Information File Version 2
 {
-	MapEditTimings
-	{
-		TotalSecondsEdited { 62121 }
-	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "62121" } 
-		KeyValue { "LastCameraAngle" "-16.2 299.662 0" } 
-		KeyValue { "LastCameraPosition" "4051.36 2777.39 426.841" } 
+		KeyValue { "EditTimeInSeconds" "66055" } 
+		KeyValue { "LastCameraAngle" "-52.8 212.962 0" } 
+		KeyValue { "LastCameraPosition" "5298.29 2005.58 475.334" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/rough_blocks_tight_light" } 
 	}
-	SelectionSets
+	MapEditTimings
 	{
+		TotalSecondsEdited { 66055 }
 	}
 	SelectionGroups
 	{
@@ -353,8 +350,6 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
@@ -886,6 +881,50 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_45)
 		Node { 0 } // entity (func_static_47)
 		Node { 0 } // entity (func_static_46)
+		Node { 0 } // entity (HatchLid)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (ManholeLadder)
+		Node { 0 } // entity (Manhole)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
 		Node { 0 } // entity (func_static_48)
+	}
+	SelectionSets
+	{
 	}
 }

@@ -1,18 +1,15 @@
 DarkRadiant Map Information File Version 2
 {
-	MapEditTimings
-	{
-		TotalSecondsEdited { 62713 }
-	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "62713" } 
-		KeyValue { "LastCameraAngle" "-15 202.162 0" } 
-		KeyValue { "LastCameraPosition" "4211.89 2670.45 379.178" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/rough_blocks_tight_light" } 
+		KeyValue { "EditTimeInSeconds" "74636" } 
+		KeyValue { "LastCameraAngle" "-4.2 107.362 0" } 
+		KeyValue { "LastCameraPosition" "5578.73 2742.31 523.263" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/old_bricks_darkgrey" } 
 	}
-	SelectionSets
+	MapEditTimings
 	{
+		TotalSecondsEdited { 74636 }
 	}
 	SelectionGroups
 	{
@@ -353,29 +350,6 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
@@ -893,5 +867,8 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_47)
 		Node { 0 } // entity (func_static_46)
 		Node { 0 } // entity (func_static_48)
+	}
+	SelectionSets
+	{
 	}
 }
