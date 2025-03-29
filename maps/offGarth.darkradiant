@@ -1,15 +1,18 @@
 DarkRadiant Map Information File Version 2
 {
-	MapProperties
-	{
-		KeyValue { "EditTimeInSeconds" "74728" } 
-		KeyValue { "LastCameraAngle" "-4.2 107.362 0" } 
-		KeyValue { "LastCameraPosition" "5578.73 2742.31 523.263" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/old_bricks_darkgrey" } 
-	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 74728 }
+		TotalSecondsEdited { 96668 }
+	}
+	MapProperties
+	{
+		KeyValue { "EditTimeInSeconds" "96668" } 
+		KeyValue { "LastCameraAngle" "-10.2 96.862 0" } 
+		KeyValue { "LastCameraPosition" "5374.39 2817.54 550.429" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/cobblestones/tiling_1d/blocks_uneven04_brown" } 
+	}
+	SelectionSets
+	{
 	}
 	SelectionGroups
 	{
@@ -362,9 +365,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
 		Node { 0 } // entity (LeakTest)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
@@ -866,10 +867,5 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_45)
 		Node { 0 } // entity (func_static_47)
 		Node { 0 } // entity (func_static_46)
-		Node { 0 } // entity (func_static_48)
-		Node { 0 } // entity (func_static_49)
-	}
-	SelectionSets
-	{
 	}
 }
