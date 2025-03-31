@@ -1,18 +1,18 @@
 DarkRadiant Map Information File Version 2
 {
-	MapEditTimings
-	{
-		TotalSecondsEdited { 96424 }
-	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "96424" } 
-		KeyValue { "LastCameraAngle" "-10.2 96.862 0" } 
-		KeyValue { "LastCameraPosition" "5374.39 2817.54 550.429" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/metal/flat/turquoise_uneven" } 
+		KeyValue { "EditTimeInSeconds" "118644" } 
+		KeyValue { "LastCameraAngle" "15.9 202.162 0" } 
+		KeyValue { "LastCameraPosition" "4895.76 3801.18 928.27" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/metal/flat/tiling_1d/gen_peeling_paint01" } 
 	}
 	SelectionSets
 	{
+	}
+	MapEditTimings
+	{
+		TotalSecondsEdited { 118644 }
 	}
 	SelectionGroups
 	{
@@ -365,7 +365,16 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
-		Node { 0 } // patch (Patch)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (LeakTest)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
@@ -867,5 +876,6 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_45)
 		Node { 0 } // entity (func_static_47)
 		Node { 0 } // entity (func_static_46)
+		Node { 0 } // entity (atdm_torch_cagelamp_hanging_1)
 	}
 }
